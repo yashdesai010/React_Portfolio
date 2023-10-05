@@ -1,0 +1,36 @@
+.main {
+    min-width: 100px;
+    padding: 0 20px;
+    margin: 0 auto;
+    height: 260px;
+  }
+  
+  .transitionsItem {
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 800;
+    text-transform: uppercase;
+    will-change: transform, opacity, height;
+    white-space: nowrap;
+    cursor: pointer;
+    line-height: 80px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end; /* Align to the right side */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* 100% of viewport height */
+    background-color: #f0f0f0; /* Background color for the container */
+  }
+  
+  .centeredContent {
+    text-align: center; /* Center text horizontally */
+    padding-right: 20px; /* Add right padding to center on the right side */
+  }
+  

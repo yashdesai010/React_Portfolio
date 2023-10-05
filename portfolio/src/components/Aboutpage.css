@@ -1,0 +1,115 @@
+/* Light mode styles */
+body.dark {
+  background-color: #333; /* Change the background color of the entire page */
+  color: #fff; /* Change the text color of the entire page */
+}
+
+/* Dark mode styles for the .about section */
+/* About.css */
+
+/* Light mode styles */
+.about {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.skills-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-icon {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #007bff; /* Icon color */
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Dark mode styles */
+.about.dark {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.about-title.dark {
+  color: #fff;
+}
+
+.about-description.dark {
+  color: #ccc;
+}
+
+.skills-title.dark {
+  color: #fff;
+}
+
+.skill.dark .skill-icon {
+  color: #007bff; /* Icon color */
+}
+
+.skill-name.dark {
+  color: #fff;
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 5px 10px; /* Reduce padding to make the button smaller */
+  font-size: 16px;  /* Reduce font size */
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 18px;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Add this to your CSS file */
+.github-icon,
+.linkedin-icon {
+  margin-left: 10px; /* Adjust the spacing between the icons and text */
+  font-size: 24px; /* Adjust the icon size as needed */
+  color: #0074e4; /* Icon color */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.github-icon:hover,
+.linkedin-icon:hover {
+  color: #0052a0; /* Icon color on hover */
+}
+

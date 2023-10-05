@@ -1,0 +1,71 @@
+/* Rating.css */
+
+/* Feedback Form Container */
+.feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Form Title */
+  .feedback-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .feedback-form input[type="text"],
+  .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Rating Stars Container */
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+  }
+  
+  /* Individual Star Icons */
+  .star {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #ccc;
+  }
+  
+  .star:hover,
+  .star.star-filled {
+    color: gold;
+  }
+  
+  /* Submit Button */
+  .feedback-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button[type="submit"] {
+    background-color: #0056b3;
+    position: relative;
+    top: 11px;
+  }
+  

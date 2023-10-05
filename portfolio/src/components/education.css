@@ -1,0 +1,93 @@
+/* EducationAndExperience.css */
+
+/* Container styles */
+.education-experience {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333; /* Text color */
+  }
+  
+  /* Section title styles */
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0074e4; /* Title color */
+  }
+  
+  /* Timeline styles */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Timeline card styles */
+  .timeline-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Timeline card content styles */
+  .timeline-content {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  /* Timeline title styles */
+  .timeline-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0074e4; /* Title color */
+  }
+  
+  /* Timeline description styles */
+  .timeline-description {
+    font-size: 16px;
+    color: #000000; /* Description text color */
+  }
+  
+  /* Timeline dot styles (optional) */
+  .timeline-card::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #0074e4; /* Dot color */
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .dark .education-experience {
+    background-color: #333; /* Set a dark background color */
+    color: #fff; /* Set text color to white */
+  }
+  
+  /* Adjust styles for other elements inside the section in dark mode */
+  .dark .section-title {
+    color: #0074e4; /* Adjust title color for dark mode */
+  }
+  
+  /* Add similar rules for other elements inside the section */
+  .dark .timeline-content {
+    background-color: #444; /* Adjust content background color for dark mode */
+    border: 1px solid #222; /* Adjust border color for dark mode */
+    color: #fff; /* Adjust text color for dark mode */
+  }
+  
+  /* Timeline dot styles for dark mode */
+  .dark .timeline-card::before {
+    background-color: #0074e4; /* Adjust dot color for dark mode */
+  }
+  
