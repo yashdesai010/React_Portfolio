@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Enable CORS with options
 const corsOptions = {
-  origin: 'https://papaya-sherbet-f5509c.netlify.app/', // Replace with your React app's URL
+  origin: 'https://papaya-sherbet-f5509c.netlify.app', // Replace with your React app's URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Enable CORS with credentials (cookies, authorization headers)
   optionsSuccessStatus: 204, // For preflight requests
