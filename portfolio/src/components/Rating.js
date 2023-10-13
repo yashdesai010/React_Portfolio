@@ -13,7 +13,7 @@ function Rating() {
     e.preventDefault();
     toast.success("Successfully Submitted");
     try {
-      const response = await fetch('', {
+      const response = await fetch('', {  //provide link in single quote
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
