@@ -13,7 +13,7 @@ function Rating() {
     e.preventDefault();
     toast.success("Successfully Submitted");
     try {
-      const response = await fetch('https://software-developer-portfolio.onrender.com/api/feedback', {
+      const response = await fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
