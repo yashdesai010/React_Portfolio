@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Enable CORS with options
 const corsOptions = {
-  origin: ['https://papaya-sherbet-f5509c.netlify.app', 'https://sde-portfolio.netlify.app'],
+  origin: ['', ''],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
